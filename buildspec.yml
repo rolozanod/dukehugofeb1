@@ -17,7 +17,7 @@ phases:
       - rm -rf /tmp/*
       - echo $(which hugo)
       # - git submodule add https://github.com/allnightgrocery/hugo-theme-blueberry-detox.git themes/detox
-  check:
+  pre_build:
     commands:
       - echo $(ls)
       - echo $(ls themes/)
