@@ -15,6 +15,7 @@ phases:
       - mv hugo /usr/bin/hugo
       - cd - 
       - rm -rf /tmp/*
+      - echo $(which hugo)
   build:
     commands:
       - make clean
