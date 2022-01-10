@@ -18,9 +18,9 @@ phases:
       - echo $(which hugo)
   build:
     commands:
+      # - aws s3 sync public/ s3://hugo-dukecloudcicd/ --region us-east-2 --delete
       - make clean
       - hugo
-      # - aws s3 sync public/ s3://hugo-dukecloudcicd/ --region us-east-2 --delete
       - hugo deploy
       - echo $(ls)
   post_build:
