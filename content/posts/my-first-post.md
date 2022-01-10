@@ -9,3 +9,5 @@ draft: false
 *This is Continuous Delivery*
 
 *This website now is triggered via AWS Code Build and does Continuous Delivery*
+
+*This page has the Detox theme*
