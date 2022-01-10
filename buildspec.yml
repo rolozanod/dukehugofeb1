@@ -16,6 +16,10 @@ phases:
       - cd - 
       - rm -rf /tmp/*
       - echo $(which hugo)
+      # - git submodule add https://github.com/allnightgrocery/hugo-theme-blueberry-detox.git themes/detox
+  check:
+      - echo $(ls)
+      - echo $(ls themes/)
   build:
     commands:
       # - aws s3 sync public/ s3://hugo-dukecloudcicd/ --region us-east-2 --delete
