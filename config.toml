@@ -1,7 +1,7 @@
 baseURL = "http://hugo-dukecloudcicd.s3-website.us-east-2.amazonaws.com/"
 languageCode = "en-us"
 title = "My New Hugo Site via AWS Cloud9"
-theme = "detox"
+theme = "ananke"
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "awsbucket"
