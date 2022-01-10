@@ -21,7 +21,7 @@ phases:
       - hugo
       # - aws s3 sync public/ s3://hugo-dukecloudcicd/ --region us-east-2 --delete
       - hugo deploy
-      - echo ls
+      - echo $(ls)
   post_build:
     commands:
       - echo Build completed on `date`
