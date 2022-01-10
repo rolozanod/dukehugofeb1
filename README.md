@@ -1,4 +1,11 @@
 # RL FORK
+I followed the instructions in the [Chapter 02](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter02-cloud-foundations/) and the [video walkthrough](https://www.youtube.com/watch?v=xiodvLdPnvI).
+
+I changed the theme to Detox.
+
+There were some changes given new hugo and aws versions were released.
+I was recieving a missing index.html error because the themes were not found so I echoed the build and added [git submodule update --init --recursive] to fix that error.
+
 # dukehugofeb1
 this is a Hugo continuous delivery site
 
