@@ -24,7 +24,7 @@ phases:
     commands:
       # - aws s3 sync public/ s3://hugo-dukecloudcicd/ --region us-east-2 --delete
       # - make clean
-      - rm rf public
+      - rm -rf public
       - hugo
       - hugo deploy
   post_build:
